@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'MCFLP' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'StringBuilder'
+  pod 'Material', '~> 2.6.3'
+  pod 'R.swift'
+  pod 'ObjectMapper'
+  pod 'TextAttributes'
+  pod 'KRProgressHUD'
+  pod 'NumericKeyboard'
+  pod 'SDCAlertView', '~> 7.0'
+  pod 'CustomKeyboardTextField'
+  pod 'IQKeyboardManagerSwift', '4.0.10'
+  pod 'Permission/Microphone'
+end
